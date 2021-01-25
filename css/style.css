@@ -50,20 +50,17 @@ body {
     color: rgba(204, 183, 252, 0.556);
     background-color: rgb(36, 36, 36);
     border-radius:7px 0 0 7px;
+    position: relative;
 }
 
 .cabecalho button {
     width: 15%;
     float: right;
-    /* background-color: rgb(36, 36, 36); */
-    color: rgba(77, 0, 255, 0.556);
+    padding: 15px 0%;
+    background-color: rgb(36, 36, 36);
+    color: rgb(240, 240, 240);
     cursor: pointer;
     border-radius:0 7px 7px 0;
-}
-
-.cabecalho button i {
-    padding: 18px 10px;
-    margin: auto;    
 }
 
 .logo a {
@@ -87,8 +84,10 @@ body {
 }
 
 .menu li a {
-    color: #aaaaaa;
-    margin: 25px;
+    color: #f0f0f0;
+    margin: 5px;
+    padding: 15px;
+    font-weight: bolder;
 }
 
 .menu li a:hover {
@@ -203,4 +202,14 @@ body {
     border-radius: 7px;
     float: right;
     cursor: pointer;
+}
+
+/* Footer */
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: rgb(22, 22, 22);
+    padding: 20px 8%;
+    color: rgb(240, 240, 240);
+    text-align: center;
 }
